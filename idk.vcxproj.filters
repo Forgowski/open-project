@@ -18,9 +18,18 @@
     <ClCompile Include="idk.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="win.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="win.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="includs.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
