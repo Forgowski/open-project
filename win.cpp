@@ -18,11 +18,15 @@ void Win::BeginOfFrame()
 {
 	IfEsc();
 	W.clear(Color(100, 0, 0));
+	AddRectangleShape();
 }
 
 void Win::EndOfFrame()
 {
-
+	for (auto x : VR)
+	{
+		W.draw(x);
+	}
 	W.display();
 }
 void Win::AddRectangleShape()
