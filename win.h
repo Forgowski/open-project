@@ -8,6 +8,7 @@ public:
 	Event e;
 	Win();
 	void IfEsc();
-	void EveryFrame();
+	void BeginOfFrame();
+	void EndOfFrame();
 };
 

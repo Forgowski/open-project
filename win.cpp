@@ -14,9 +14,14 @@ void Win::IfEsc()
 	if (e.type == Event::Closed || (Keyboard::isKeyPressed(Keyboard::Escape))) W.close();
 }
 
-void Win::EveryFrame()
+void Win::BeginOfFrame()
 {
 	IfEsc();
-	W.clear(Color(100,0,0));
+	W.clear(Color(100, 0, 0));
+}
+
+void Win::EndOfFrame()
+{
+
 	W.display();
 }
